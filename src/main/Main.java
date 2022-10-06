@@ -7,7 +7,8 @@ public class Main {
 
     }
 
-    public static int sum(int a, int b) {
-        return a + b;
+    public static int sum() {
+        System.out.println("Inside the sum");
+        return 3 + 4;
     }
 }
