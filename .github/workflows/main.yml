@@ -39,5 +39,5 @@ jobs:
           echo Add other actions to build,
           ls
           java src/Main.java
-          dc src
+          cd src
           ls
