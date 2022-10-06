@@ -1,14 +1,11 @@
-package main;
-
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Inside the Main");
-        sum();
+
     }
 
-    public static int sum() {
-        System.out.println("Inside the sum");
-        return 3 + 4;
+    public int sum(int a, int b) {
+        return a + b;
     }
 }

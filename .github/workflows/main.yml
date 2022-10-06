@@ -37,4 +37,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          java src/main/Main.java sum
+          echo ls
+          javac src/Main/Main.java
