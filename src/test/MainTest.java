@@ -1,16 +1,21 @@
 package test;
 
+import main.Main;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
-    @org.junit.jupiter.api.Test
+    public static Main main = new Main();
+    @Test
     void main() {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void sum() {
-
+        int s = main.sum(2, 3);
+        assertEquals(5,s);
     }
 }
