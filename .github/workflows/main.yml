@@ -38,8 +38,8 @@ jobs:
         run: |
           echo Add other actions to build,
           ls
-          java src/Main.java
+          java src/main/Main.java
           cd src
           ls
-          javac -cp "../lib/junit-platform-console-standalone-1.7.1-all.jar" Main.java MainTest.java
+          javac -cp "../lib/junit-platform-console-standalone-1.7.1-all.jar" MainTest.java src/Main.java
           java -jar ../lib/junit-platform-console-standalone-1.7.1-all.jar -cp "." --select-class MainTest --reports-dir='reports'
