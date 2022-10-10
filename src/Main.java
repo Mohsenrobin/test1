@@ -1,9 +1,7 @@
-package main;
-
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Inside the main.Main");
+        System.out.println("Inside the Main");
         System.out.println("Indeed");
 
     }
