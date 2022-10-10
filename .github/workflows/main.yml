@@ -38,7 +38,7 @@ jobs:
         run: |
           echo Add other actions to build,
           ls
-          java src/main/Main.java
+          java src/Main.java
           cd src
           ls
           javac -cp "../lib/junit-platform-console-standalone-1.7.1-all.jar" MainTest.java Main.java
