@@ -1,11 +1,8 @@
-package test;
-
-import Main;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 class MainTest {
-    private Main main = new Main();
+    private MainClass main = new MainClass();
 
     @Test
     void sum() {
