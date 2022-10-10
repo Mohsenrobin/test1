@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 class MainTest {
-    private MainClass main = new MainClass();
+    private Main main = new Main();
 
     @Test
     void sum() {
