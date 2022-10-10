@@ -40,5 +40,5 @@ jobs:
           ls
           cd src
           ls
-          javac -cp "../lib/junit-platform-console-standalone-1.7.1-all.jar" MainTest.java test2.jar
+          javac -cp "../lib/junit-platform-console-standalone-1.7.1-all.jar" "test2.jar" MainTest.java 
           java -jar ../lib/junit-platform-console-standalone-1.7.1-all.jar -cp "." --select-class MainTest --reports-dir='reports'
